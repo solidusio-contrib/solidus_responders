@@ -1,7 +1,10 @@
-SolidusResponders
+Solidus Responders
 ==============
 
-Introduction goes here.
+Solidus responders allows customizing and overriding responders within solidus.
+For more information about responders, see the responders gem:
+
+[plataformatec/responders](https://github.com/plataformatec/responders)
 
 Installation
 ------------
@@ -12,11 +15,10 @@ Add solidus_responders to your Gemfile:
 gem 'solidus_responders'
 ```
 
-Bundle your dependencies and run the installation generator:
+Bundle your dependencies:
 
 ```shell
 bundle
-bundle exec rails g solidus_responders:install
 ```
 
 Testing
@@ -28,13 +30,3 @@ First bundle your dependencies, then run `rake`. `rake` will default to building
 bundle
 bundle exec rake
 ```
-
-When testing your applications integration with this extension you may use it's factories.
-Simply add this require statement to your spec_helper:
-
-```ruby
-require 'solidus_responders/factories'
-```
-
-Copyright (c) 2016 [name of extension creator], released under the New BSD License
-# solidus_responders
