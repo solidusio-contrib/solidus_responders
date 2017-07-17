@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir['test/**/*']
 
   s.add_dependency 'solidus_core', ['< 3', '>= 2.1.0']
+  s.add_dependency 'responders'
 
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'factory_girl'
