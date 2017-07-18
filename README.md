@@ -1,3 +1,5 @@
+**This gem provides legacy support for an interface [removed from Solidus 2.4.0](https://github.com/solidusio/solidus/pull/1956), we don't recommend adding it to new stores**
+
 Solidus Responders
 ==============
 
